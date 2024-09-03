@@ -1,0 +1,22 @@
+.view-attendance-container {
+  padding: 20px;
+}
+
+.view-attendance-container h2 {
+  margin-bottom: 20px;
+}
+
+.view-attendance-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.view-attendance-container th,
+.view-attendance-container td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.view-attendance-container th {
+  background-color: #f4f4f4;
+}

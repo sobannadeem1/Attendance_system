@@ -1,0 +1,28 @@
+.generate-report-container {
+  padding: 20px;
+}
+
+.generate-report-container h2 {
+  margin-bottom: 20px;
+}
+
+.generate-report-container input,
+.generate-report-container button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.generate-report-container button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.generate-report-container pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+}

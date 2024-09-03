@@ -1,0 +1,56 @@
+.leave-approval-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.leave-approval-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.leave-request-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.leave-request-name {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.leave-request-reason,
+.leave-request-status {
+  font-size: 1rem;
+  color: #666;
+}
+
+.approve-button,
+.reject-button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+.reject-button {
+  background-color: #dc3545;
+}
+
+.approve-button:hover {
+  background-color: #0056b3;
+}
+
+.reject-button:hover {
+  background-color: #c82333;
+}
